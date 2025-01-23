@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: rgb(230, 189, 5);
+
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.navbar a:hover {
+    background-color: #008CBA; 
+}
+.navbar .right {
+    float: right;
+}
+
+ /* Main content */
+ .container {
+    margin-top: 150px; /* Adjusted for the fixed navbar */
+    padding: 20px;
+    max-width: 100%; /* Smaller width, you can adjust this value */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.panel-info {
+    border-radius: 5px;
+    border: 1px solid black
+    margin-bottom: 20px;
+}
+
+.panel-heading {
+    background-color: #FFF5C3;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.panel-body {
+    background-color: white;
+}
+/* Navbar Styling */
+nav {
+    background-color: rgb(230, 189, 5);
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #008CBA;
+}
+
+nav ul li.active a {
+    background-color: #008CBA;
+}
+
+nav ul li a:focus {
+    outline: none;
+}
+
+nav .navbar-right {
+    margin-left: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #008CBA;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Pagination Styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    color:#008CBA; 
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.pagination li.active a {
+    background-color: #008CBA;
+    color: white;
+}
+
+.input-group {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.input-group input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    width: 200px;
+}
+
+.input-group button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 14px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #008CBA;
+}

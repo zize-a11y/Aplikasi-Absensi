@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgb(230, 189, 5);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #2980b9;
+}
+
+.navbar .right {
+    float: right;
+}
+
+/* Container */
+.container {
+    margin-top: 80px; /* Adjusted for fixed navbar */
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Panel */
+.panel {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #34495e;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Form */
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+form table {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+form td {
+    padding: 10px;
+}
+
+form input, form select, form button {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+form button {
+    background-color: rgb(0, 140, 186);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form button:hover {
+    background-color: rgb(0, 140, 186);
+}
+
+.logo-table img {
+    max-width: 200px;
+}
+
+.panel-heading h1 {
+    text-align: center;
+    font-size: 32px;
+    color: black;
+}
+
+.panel-body h3 {
+    font-size: 20px;
+    color: black
+}
+
+.panel-body select {
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+}

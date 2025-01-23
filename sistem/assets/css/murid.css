@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: rgb(230, 189, 5);
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #008CBA 
+}
+
+nav ul li.active a {
+    background-color: #008CBA;
+}
+
+nav ul li a:focus {
+    outline: none;
+}
+
+nav .navbar-right {
+    margin-left: auto;
+}
+
+/* Main content */
+.container {
+    margin-top: 150px; /* Adjusted for the fixed navbar */
+    padding: 20px;
+    position: relative;
+}
+
+.panel-info {
+    border-radius: 5px;
+    border: 3px solid #0000;
+    margin-bottom: 10px;
+}
+
+.panel-heading {
+    background-color: #FFF5C3;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.panel-body {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Styling the navigation menu for Data Siswa, Siswa Baru, etc. */
+.navbar-top {
+    margin-bottom: 20px; /* Spacing between menu and the panel */
+}
+
+.navbar-top ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-top ul li {
+    list-style: none;
+}
+
+.navbar-top ul li a {
+    padding: 5px;
+    background-color: #5bc0de;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navbar-top ul li a:hover {
+    background-color: #16a085;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #008CBA;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-info {
+    background-color: #5bc0de;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #16a085;
+}
+
+.btn-success {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    color: #3498db;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.pagination li.active a {
+    background-color: #2980b9;
+    color: white;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    width: 200px;
+}
+
+.input-group button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 14px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #16a085;
+}
+
+.round-button {
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    width: 30px; 
+    height: 30px;
+    background-color:#F0F0F0; 
+    color: black;
+    text-decoration: none; 
+    border: none; 
+    border-radius: 50%; 
+    font-size: 24px;
+    font-weight: bold; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+.round-button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.1); 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
+}
+

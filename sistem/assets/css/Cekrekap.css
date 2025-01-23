@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    background-color: rgb(230, 189, 5);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #2980b9;
+}
+
+.navbar .right {
+    float: right;
+}
+
+.container {
+    margin: 100px auto; /* Memberikan margin untuk navbar */
+    max-width: 1000px; /* Menyesuaikan lebar form */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h3 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    margin-top: 20px;
+}
+
+table td {
+    padding: 10px;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+table td input[type="text"] {
+    width: 95%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db; /* Warna biru tombol */
+    color: white;
+    border: none;
+    padding: 10px 400px;
+    border-radius: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Judul Section */
+.title-container {
+    background-color: rgb(230, 189, 5);
+    padding: 20px;
+    border-radius: 0px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
