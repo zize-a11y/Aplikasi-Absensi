@@ -8,7 +8,7 @@ Aplikasi ini digunakan untuk mencatat kehadiran siswa siswi TK TADIKA MESRA
 - admin dapat melihat rekap kehadiran siswa , mencetak kehadiran siswa
 - admin dapat mengelola data siswa
 
-nama Database : ta
+nama Database : sistem
 
 admin account
 id : admin
